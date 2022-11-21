@@ -8,6 +8,13 @@
 
 ## Commandes
 
+Install UFW
+```
+sudo ufw allow 4242
+sudo ufw enable
+sudo ufw status verbose
+```
+
 Get passwd info
 ```
 sudo chage -l $USER 

@@ -6,6 +6,7 @@
 /etc/ssh/sshd_config
 /etc/hostname
 /etc/security/pwquality.conf
+/etc/sudoers
 ```
 
 ## Commandes

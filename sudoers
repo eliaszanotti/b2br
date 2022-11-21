@@ -9,8 +9,9 @@
 Defaults	env_reset
 Defaults	mail_badpass
 Defaults	secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
-Defaults	badpass_message="Wrong Password bro !"
 
+Defaults	badpass_message="Wrong Password bro !"
+Defaults	logfile="/var/log/sudo/"
 # Host alias specification
 
 # User alias specification

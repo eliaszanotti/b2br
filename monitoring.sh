@@ -16,7 +16,7 @@ tcp_connections=$(netstat -s | grep established | awk '{print $1" "$2" "$3}')
 user_log=$(who | wc -l)
 ip_addr=$(ip a | grep "scope global" | awk '{print $2}')
 mac_addr=$(ip link show | grep "link/ether" | awk '{print $2}')
-sudo_count=$(sudo grep sudo /var/log/auth.log | grep COMMAND | wc -l)
+sudo_count=$(grep COMMAND /var/log/sudo/sudo.log | wc -l)
 
 ft_title () {
 	echo "\t#$1\t: $2"
@@ -27,9 +27,9 @@ echo "MONITORING SCRIPT :\n"
 ft_title "Architecture" "$arch_info"
 ft_title "CPU physical" "$nb_cpu"
 ft_title "CPU virtual" "$nb_vcpu"
-ft_title "Memory Usage" "$actual_ram MB / $max_ram MB ($percent_ram %)"
+ft_title "Memory Usage" "${actual_ram}MB / ${max_ram}MB (${percent_ram}%)"
 ft_title "Disk Usage" "$disk_use / $disk_total ($disk_percent)"
-ft_title "CPU load" "$cpu_load %"
+ft_title "CPU load" "${cpu_load}%"
 ft_title "Last boot" "$last_boot"
 ft_title "LVM use" "$lvm_use"
 ft_title "Connexions TCP" "$tcp_connections"

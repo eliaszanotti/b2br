@@ -4,6 +4,7 @@
 ~/monitoring.sh
 /etc/login.defs
 /etc/ssh/sshd_config
+/etc/hostname
 ```
 
 ## Commandes

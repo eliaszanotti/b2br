@@ -19,7 +19,7 @@ mac_addr=$(ip link show | grep "link/ether" | awk '{print $2}')
 sudo_count=$(grep COMMAND /var/log/sudo/sudo.log | wc -l)
 
 ft_title () {
-	echo "\t#$1\t: $2"
+	echo " #$1\t: $2"
 }
 
 echo "MONITORING SCRIPT :\n"

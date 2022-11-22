@@ -1,7 +1,7 @@
 # Documentation
 
 ```
-~/monitoring.sh
+/root/monitoring.sh
 /etc/login.defs
 /etc/ssh/sshd_config
 /etc/hostname
@@ -10,6 +10,11 @@
 ```
 
 ## Commandes
+
+Edit crontab
+```
+crontab -e
+```
 
 Install UFW
 ```

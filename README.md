@@ -27,3 +27,7 @@ Get passwd info
 ```
 sudo chage -l $USER 
 ```
+
+## Sources 
+
+[Pam cracklib tuto](https://ostechnix.com/force-users-use-strong-passwords-debian-ubuntu/)

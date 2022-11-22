@@ -5,7 +5,7 @@
 /etc/login.defs
 /etc/ssh/sshd_config
 /etc/hostname
-/etc/security/pwquality.conf
+/etc/pam.d/common-password
 /etc/sudoers
 ```
 

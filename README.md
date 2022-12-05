@@ -13,6 +13,10 @@
 ```
 libpam-cracklib
 sudo
+
+bc
+mpstat
+netstat
 ```
 
 ## Commandes

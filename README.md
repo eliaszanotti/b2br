@@ -15,8 +15,8 @@ libpam-cracklib
 sudo
 
 bc
-mpstat
 net-tools
+sysstat
 ```
 
 ## Commandes

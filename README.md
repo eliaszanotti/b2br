@@ -9,6 +9,12 @@
 /etc/sudoers
 ```
 
+## Install
+```
+libpam-cracklib
+sudo
+```
+
 ## Commandes
 
 Sudo command

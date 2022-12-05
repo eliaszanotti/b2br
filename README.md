@@ -11,6 +11,12 @@
 
 ## Commandes
 
+Sudo command
+```
+sudo groupadd mynewgroup
+usermod -a -G examplegroup exampleusername
+```
+
 Edit crontab
 ```
 crontab -e

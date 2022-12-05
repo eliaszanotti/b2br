@@ -16,7 +16,7 @@ sudo
 
 bc
 mpstat
-netstat
+net-tools
 ```
 
 ## Commandes

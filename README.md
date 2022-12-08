@@ -66,7 +66,9 @@ sudo chage -m 2 -M 30 root
 
 Debian est plus utilisé et il y'a donc plus de doc, plus pour une utilisation quotidienne que Cent OS.
 Cent os est plus pour les entreprises. Les deux sont basés sur Linux.
-Les MAJ sont plus simples sur Debian et il y'a plus de paquets disponibles. 
+Les MAJ sont plus simples sur Debian et il y'a plus de paquets disponibles.
+De plus cent-os est maintenu a jour pendant 10 ans ce qui est bien pour les entreprises.
+Cent-os est plus stable mais possede moins de paquets que Debian.
 
 APT (Advanced Packaging Tools) est un gestionnaire de paquet avancé qui permet d'installer des paquets et de les rechercher. 
 Aptitude est un gestionnaire de paquets basé sur APT.

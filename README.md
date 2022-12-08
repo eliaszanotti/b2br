@@ -25,13 +25,20 @@ sysstat
 
 Sudo command
 ```
+sudo groups
 sudo groupadd mynewgroup
-usermod -a -G examplegroup exampleusername
+sudo usermod -a -G examplegroup exampleusername
 ```
 
 Edit crontab
 ```
 crontab -e
+```
+
+Change hostname
+```
+hostnamectl
+hostnamectl set-hostname
 ```
 
 Install UFW
@@ -61,7 +68,9 @@ Debian est plus utilisé et il y'a donc plus de doc, plus pour une utilisation q
 Cent os est plus pour les entreprises. Les deux sont basés sur Linux.
 Les MAJ sont plus simples sur Debian et il y'a plus de paquets disponibles. 
 
+APT (Advanced Packaging Tools) est un gestionnaire de paquet avancé qui permet d'installer des paquets et de les rechercher. 
+Aptitude est un gestionnaire de paquets basé sur APT.
 
-
-
-
+Apparmor est plus simple que SELinux. 
+Apparmor sert a confiner les programmes, c'est une sécurité pour limiter l'acces d'un programme a des ressources du noyau.
+On peut associer a des programmes des profils de sécurité pour limiter l'acces a l'OS.

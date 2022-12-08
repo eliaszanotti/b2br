@@ -74,3 +74,10 @@ Aptitude est un gestionnaire de paquets basé sur APT.
 Apparmor est plus simple que SELinux. 
 Apparmor sert a confiner les programmes, c'est une sécurité pour limiter l'acces d'un programme a des ressources du noyau.
 On peut associer a des programmes des profils de sécurité pour limiter l'acces a l'OS.
+
+UFW est un parefeu qui permet de restreindre l'acces a des ports.
+
+LVM permet de resize des partitions plus facilement et d'en creer facilement de nouvelles.
+
+LVM = Logical Volume Manager
+SSH = Secure Shell

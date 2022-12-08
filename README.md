@@ -11,7 +11,23 @@
 /etc/sudoers
 ```
 
+## Install
+```
+libpam-cracklib
+sudo
+
+bc
+net-tools
+sysstat
+```
+
 ## Commandes
+
+Sudo command
+```
+sudo groupadd mynewgroup
+usermod -a -G examplegroup exampleusername
+```
 
 Edit crontab
 ```

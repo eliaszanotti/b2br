@@ -82,4 +82,5 @@ UFW est un parefeu qui permet de restreindre l'acces a des ports.
 LVM permet de resize des partitions plus facilement et d'en creer facilement de nouvelles.
 
 LVM = Logical Volume Manager
+
 SSH = Secure Shell
